@@ -1,0 +1,8 @@
+BUILD:
+docker build --platform linux/amd64 -t gcr.io/flash-cache-415617/tc-ml-capstone:latest .
+
+PUSH TO GOOGLE CLOUD:
+docker push gcr.io/flash-cache-415617/tc-ml-capstone:latest
+
+RUN LOCALLY:
+docker run -p 8080:8080 gcr.io/flash-cache-415617/tc-ml-capstone:latest

@@ -1,0 +1,22 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+optuna
+FuzzyTM # optuna required
+blosc2 # optuna required
+cython # optuna required
+joblib 
+shap
+uvicorn
+fastapi
+df-squeezer
+autofeat
+seaborn_qqplot
+ipympl
+threadpoolctl
+xgboost
+imbalanced-learn
+google-cloud-aiplatform
